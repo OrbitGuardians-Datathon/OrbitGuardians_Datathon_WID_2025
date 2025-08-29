@@ -1,9 +1,4 @@
-<h1>A SaaS Based International Space Traffic Management System
-
-
-
-
-
+# A SaaS Based International Space Traffic Management System
 
 
 Space is becoming increasingly more crowded.  In the last 60 years nearly 8,500 objects have been launched to space, about 1,500 in geosynchronous Earth orbit (GEO) and about 7,000 in low Earth orbit (LEO) (McDowell 2018). A large fraction remains especially in LEO. Going forward, LEO is expected to become more crowded. The concern is not just the increasing number of satellites and active payloads, but the amount of debris (rocket bodies, other inert bodies, dead payloads) in Earth’s orbit, which comprises more than 95 percent of the currently tracked objects in space. The U.S. Department of Defense (DoD) is currently tracking over 23,000 objects larger than 10 cm in diameter in Earth orbit (of these, almost 16,000 are in LEO, of which nearly 13,000 were classified as space debris). An estimated 500,000 objects larger than 1 cm in diameter are not currently tracked, and over 100 million objects smaller than 1 mm in diameter are likely not trackable (NASA Orbital Debris Program Office, year?).
@@ -29,9 +24,7 @@ Given the countries’ dependence on space for critical national needs and socie
 
 Some nations are looking to decrease their dependence on the U.S. SSA system due to concerns that it might be the target of an adversarial attack [need citation]. Other stakeholders felt such an attack is unlikely, given the global nature of SSA and the widespread reliance on the U.S. system. Some (e.g., France) seek to be self-sufficient for reasons of national pride and sovereignty [need citation]. Others see it as a means by which to provide leadership in the domain and collaborate with 23 other nations [need citation]. Many countries that are pursuing their own SSA systems, explicitly intend to keep their systems interoperable with others internationally (e.g., Australia, Canada, Japan, United Kingdom) [need citation].
 
-<h1>Our Project Concept: An International STM SaaS Platform
-
-
+# Our Project Concept: An International STM SaaS Platform
 
 
 As the number of satellites and debris in orbit continues to grow, no single country can track and manage space traffic effectively on its own. A SaaS-based Space Traffic Management (STM) platform offers a mechanism where countries can voluntarily contribute orbital and object data to a global system, but do so in a way that protects their independence and national priorities. By using standardized formats such as TLEs (Two-Line Elements), OMMs (Orbit Mean Elements Messages), and CDMs (Conjunction Data Messages), each nation can share only the subset of its data that is approved for publication. This ensures that sensitive or classified information remains under national control while still allowing the broader international community to benefit from a more transparent, aggregated picture of orbital activity.
