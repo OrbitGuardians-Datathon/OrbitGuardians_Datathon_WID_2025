@@ -36,7 +36,7 @@ For participating countries, interoperability is achieved by adhering to agreed-
 Crucially, the SaaS platform supports tiered data-sharing agreements, so each participant grants viewing permissions and alerts according to its requirements. For instance, a country may decide to make its active satellite catalog publicly visible, share conjunction alerts with trusted partners only, and keep precise maneuver plans restricted to internal use. This approach addresses the concerns of achieving greater transparency and increased confidence in collision predictions, while protecting national security. 
 
 
-Benefits of the System;
+Benefits of the System:
 1.	By letting countries decide their level of disclosure, the system lowers political barriers to participation while increasing the overall volume and quality of global orbital data made publicly available.
 2.	Participation provides tangible benefits to each country. By contributing to the system, governments gain access to higher-quality conjunction warnings, better situational awareness of crowded orbits, and the ability to verify or cross-check information provided by others. This reduces reliance on a single foreign system, which is a growing concern for countries worried about over-dependence on U.S. data. 
 3.	Participation builds international trust and transparency, as all parties can see how their data contributes to a collective orbital “map.” 
