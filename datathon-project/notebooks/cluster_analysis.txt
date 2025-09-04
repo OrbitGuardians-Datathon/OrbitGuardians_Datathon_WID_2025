@@ -1,0 +1,378 @@
+
+--- Analysis for Noise/Outlier Points ---
+Number of points in this cluster: 1742
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 30880.3634
+  2. Feature Index 4: 8611.7113
+  3. Feature Index 5: 1981.1315
+  4. Feature Index 6: 49.5540
+  5. Feature Index 3: 0.8909
+  6. Feature Index 2: 0.1005
+  7. Feature Index 1810: 0.0476
+  8. Feature Index 2411: 0.0385
+  9. Feature Index 187133: 0.0382
+  10. Feature Index 3547: 0.0381
+
+--- Analysis for Cluster 0 ---
+Number of points in this cluster: 5047
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 5888.9740
+  2. Feature Index 4: 4724.2578
+  3. Feature Index 5: 1970.4959
+  4. Feature Index 6: 52.8346
+  5. Feature Index 3: 0.9853
+  6. Feature Index 7: 0.1601
+  7. Feature Index 608: 0.1373
+  8. Feature Index 1209: 0.0781
+  9. Feature Index 1810: 0.0509
+  10. Feature Index 3547: 0.0446
+
+--- Analysis for Cluster 1 ---
+Number of points in this cluster: 84
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 5660.4762
+  2. Feature Index 4: 2829.3690
+  3. Feature Index 5: 1965.2024
+  4. Feature Index 6: 62.6190
+  5. Feature Index 3: 1.0000
+  6. Feature Index 188357: 0.0652
+  7. Feature Index 115366: 0.0630
+  8. Feature Index 188332: 0.0628
+  9. Feature Index 150744: 0.0518
+  10. Feature Index 2411: 0.0476
+
+--- Analysis for Cluster 2 ---
+Number of points in this cluster: 65
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 9673.4615
+  2. Feature Index 4: 3061.9692
+  3. Feature Index 5: 1965.9846
+  4. Feature Index 6: 56.7077
+  5. Feature Index 3: 1.0000
+  6. Feature Index 187903: 0.0550
+  7. Feature Index 151769: 0.0532
+  8. Feature Index 50748: 0.0327
+  9. Feature Index 3547: 0.0216
+  10. Feature Index 984: 0.0154
+
+--- Analysis for Cluster 3 ---
+Number of points in this cluster: 238
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 16408.1639
+  2. Feature Index 4: 7669.9916
+  3. Feature Index 5: 1978.9286
+  4. Feature Index 6: 18.1975
+  5. Feature Index 3: 1.0000
+  6. Feature Index 188187: 0.1393
+  7. Feature Index 54947: 0.1052
+  8. Feature Index 163642: 0.1034
+  9. Feature Index 187133: 0.0467
+  10. Feature Index 64605: 0.0409
+
+--- Analysis for Cluster 4 ---
+Number of points in this cluster: 86
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 18300.9302
+  2. Feature Index 4: 7522.0814
+  3. Feature Index 5: 1978.4419
+  4. Feature Index 6: 29.9535
+  5. Feature Index 3: 1.0000
+  6. Feature Index 163642: 0.0943
+  7. Feature Index 188187: 0.0904
+  8. Feature Index 54947: 0.0652
+  9. Feature Index 187133: 0.0471
+  10. Feature Index 64605: 0.0345
+
+--- Analysis for Cluster 5 ---
+Number of points in this cluster: 3077
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 24660.0988
+  2. Feature Index 4: 14037.1189
+  3. Feature Index 5: 1995.9695
+  4. Feature Index 6: 43.5034
+  5. Feature Index 3: 0.7673
+  6. Feature Index 2: 0.2285
+  7. Feature Index 7: 0.1693
+  8. Feature Index 608: 0.1518
+  9. Feature Index 1209: 0.0894
+  10. Feature Index 1810: 0.0520
+
+--- Analysis for Cluster 6 ---
+Number of points in this cluster: 238
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 21441.2017
+  2. Feature Index 4: 6338.2437
+  3. Feature Index 5: 1974.9916
+  4. Feature Index 6: 52.3403
+  5. Feature Index 3: 1.0000
+  6. Feature Index 187136: 0.0923
+  7. Feature Index 181867: 0.0672
+  8. Feature Index 61077: 0.0528
+  9. Feature Index 187133: 0.0485
+  10. Feature Index 3547: 0.0424
+
+--- Analysis for Cluster 7 ---
+Number of points in this cluster: 124
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 28653.7339
+  2. Feature Index 4: 2955.1290
+  3. Feature Index 5: 1965.5484
+  4. Feature Index 6: 68.5565
+  5. Feature Index 3: 1.0000
+  6. Feature Index 187133: 0.0479
+  7. Feature Index 3547: 0.0452
+  8. Feature Index 188357: 0.0437
+  9. Feature Index 115366: 0.0423
+  10. Feature Index 188332: 0.0421
+
+--- Analysis for Cluster 8 ---
+Number of points in this cluster: 89
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 28521.9438
+  2. Feature Index 4: 12367.6180
+  3. Feature Index 5: 1991.0562
+  4. Feature Index 6: 81.1348
+  5. Feature Index 3: 1.0000
+  6. Feature Index 187261: 0.1518
+  7. Feature Index 146457: 0.1165
+  8. Feature Index 187159: 0.1157
+  9. Feature Index 180684: 0.0548
+  10. Feature Index 187133: 0.0415
+
+--- Analysis for Cluster 9 ---
+Number of points in this cluster: 2386
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 30985.8504
+  2. Feature Index 4: 15073.9300
+  3. Feature Index 5: 1999.0013
+  4. Feature Index 6: 25.1039
+  5. Feature Index 2: 0.9979
+  6. Feature Index 73734: 0.0845
+  7. Feature Index 187292: 0.0844
+  8. Feature Index 187133: 0.0488
+  9. Feature Index 62788: 0.0438
+  10. Feature Index 180684: 0.0421
+
+--- Analysis for Cluster 10 ---
+Number of points in this cluster: 343
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 32714.9329
+  2. Feature Index 4: 18082.8484
+  3. Feature Index 5: 2006.7843
+  4. Feature Index 6: 49.2828
+  5. Feature Index 3: 0.7843
+  6. Feature Index 2: 0.1983
+  7. Feature Index 7: 0.1516
+  8. Feature Index 608: 0.1137
+  9. Feature Index 72730: 0.0668
+  10. Feature Index 188400: 0.0654
+
+--- Analysis for Cluster 11 ---
+Number of points in this cluster: 154
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 33675.3766
+  2. Feature Index 4: 15074.3117
+  3. Feature Index 5: 1999.0000
+  4. Feature Index 6: 25.2727
+  5. Feature Index 2: 0.9935
+  6. Feature Index 73734: 0.0831
+  7. Feature Index 187292: 0.0830
+  8. Feature Index 187133: 0.0484
+  9. Feature Index 62788: 0.0425
+  10. Feature Index 3547: 0.0409
+
+--- Analysis for Cluster 12 ---
+Number of points in this cluster: 527
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 34955.4820
+  2. Feature Index 4: 14470.0000
+  3. Feature Index 5: 1997.0000
+  4. Feature Index 6: 51.0000
+  5. Feature Index 3: 1.0000
+  6. Feature Index 104475: 0.1212
+  7. Feature Index 187492: 0.1189
+  8. Feature Index 51941: 0.0652
+  9. Feature Index 169075: 0.0624
+  10. Feature Index 187133: 0.0475
+
+--- Analysis for Cluster 13 ---
+Number of points in this cluster: 181
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 35184.2210
+  2. Feature Index 4: 15095.5193
+  3. Feature Index 5: 1999.0166
+  4. Feature Index 6: 28.2928
+  5. Feature Index 2: 0.9890
+  6. Feature Index 73734: 0.0755
+  7. Feature Index 187292: 0.0754
+  8. Feature Index 62788: 0.0501
+  9. Feature Index 187133: 0.0485
+  10. Feature Index 3547: 0.0418
+
+--- Analysis for Cluster 14 ---
+Number of points in this cluster: 16872
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 54179.4756
+  2. Feature Index 4: 23435.8911
+  3. Feature Index 5: 2021.7485
+  4. Feature Index 6: 86.2813
+  5. Feature Index 3: 0.7591
+  6. Feature Index 2: 0.2374
+  7. Feature Index 7: 0.0716
+  8. Feature Index 608: 0.0707
+  9. Feature Index 1209: 0.0505
+  10. Feature Index 1810: 0.0423
+
+--- Analysis for Cluster 15 ---
+Number of points in this cluster: 1371
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 38981.7265
+  2. Feature Index 4: 15141.2721
+  3. Feature Index 5: 1999.0073
+  4. Feature Index 6: 39.3479
+  5. Feature Index 2: 0.5485
+  6. Feature Index 3: 0.4515
+  7. Feature Index 73734: 0.0459
+  8. Feature Index 187292: 0.0458
+  9. Feature Index 62788: 0.0457
+  10. Feature Index 187133: 0.0436
+
+--- Analysis for Cluster 16 ---
+Number of points in this cluster: 119
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 38381.1681
+  2. Feature Index 4: 2645.8739
+  3. Feature Index 5: 1965.0336
+  4. Feature Index 6: 30.3445
+  5. Feature Index 3: 1.0000
+  6. Feature Index 128296: 0.1381
+  7. Feature Index 172437: 0.1124
+  8. Feature Index 187864: 0.1098
+  9. Feature Index 59209: 0.0739
+  10. Feature Index 187133: 0.0483
+
+--- Analysis for Cluster 17 ---
+Number of points in this cluster: 197
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 40374.1371
+  2. Feature Index 4: 13506.9645
+  3. Feature Index 5: 1994.8122
+  4. Feature Index 6: 17.6294
+  5. Feature Index 3: 1.0000
+  6. Feature Index 187263: 0.1231
+  7. Feature Index 146457: 0.1103
+  8. Feature Index 187159: 0.1095
+  9. Feature Index 180684: 0.0602
+  10. Feature Index 187133: 0.0478
+
+--- Analysis for Cluster 18 ---
+Number of points in this cluster: 59
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 40851.4068
+  2. Feature Index 4: 19529.1017
+  3. Feature Index 5: 2010.8983
+  4. Feature Index 6: 47.3051
+  5. Feature Index 2: 1.0000
+  6. Feature Index 187109: 0.0960
+  7. Feature Index 115366: 0.0813
+  8. Feature Index 115365: 0.0510
+  9. Feature Index 208: 0.0508
+  10. Feature Index 3469: 0.0508
+
+--- Analysis for Cluster 19 ---
+Number of points in this cluster: 76
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 42287.9605
+  2. Feature Index 4: 13562.2763
+  3. Feature Index 5: 1994.9868
+  4. Feature Index 6: 15.5526
+  5. Feature Index 3: 1.0000
+  6. Feature Index 187263: 0.1495
+  7. Feature Index 146457: 0.1357
+  8. Feature Index 187159: 0.1347
+  9. Feature Index 180684: 0.0779
+  10. Feature Index 187133: 0.0477
+
+--- Analysis for Cluster 20 ---
+Number of points in this cluster: 100
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 42381.5000
+  2. Feature Index 4: 15573.0000
+  3. Feature Index 5: 2000.0000
+  4. Feature Index 6: 55.0000
+  5. Feature Index 3: 1.0000
+  6. Feature Index 187813: 0.1297
+  7. Feature Index 180684: 0.0748
+  8. Feature Index 66175: 0.0747
+  9. Feature Index 62788: 0.0593
+  10. Feature Index 187133: 0.0490
+
+--- Analysis for Cluster 21 ---
+Number of points in this cluster: 67
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 42539.1194
+  2. Feature Index 4: 4449.3284
+  3. Feature Index 5: 1969.9851
+  4. Feature Index 6: 26.8657
+  5. Feature Index 3: 1.0000
+  6. Feature Index 186787: 0.1188
+  7. Feature Index 188311: 0.1158
+  8. Feature Index 61077: 0.0686
+  9. Feature Index 181867: 0.0625
+  10. Feature Index 187133: 0.0483
+
+--- Analysis for Cluster 22 ---
+Number of points in this cluster: 107
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 42608.0000
+  2. Feature Index 4: 5994.7944
+  3. Feature Index 5: 1973.8131
+  4. Feature Index 6: 72.1308
+  5. Feature Index 3: 1.0000
+  6. Feature Index 187136: 0.0928
+  7. Feature Index 59209: 0.0562
+  8. Feature Index 187133: 0.0488
+  9. Feature Index 55695: 0.0458
+  10. Feature Index 188311: 0.0426
+
+--- Analysis for Cluster 23 ---
+Number of points in this cluster: 101
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 43863.2079
+  2. Feature Index 4: 20626.7426
+  3. Feature Index 5: 2013.8317
+  4. Feature Index 6: 55.7030
+  5. Feature Index 3: 0.7426
+  6. Feature Index 2: 0.2574
+  7. Feature Index 187001: 0.0973
+  8. Feature Index 186869: 0.0928
+  9. Feature Index 1810: 0.0792
+  10. Feature Index 3547: 0.0708
+
+--- Analysis for Cluster 24 ---
+Number of points in this cluster: 118
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 46907.5000
+  2. Feature Index 4: 14932.2034
+  3. Feature Index 5: 1998.5000
+  4. Feature Index 6: 33.7119
+  5. Feature Index 2: 0.7119
+  6. Feature Index 3: 0.2797
+  7. Feature Index 73734: 0.0601
+  8. Feature Index 187292: 0.0600
+  9. Feature Index 62788: 0.0501
+  10. Feature Index 187133: 0.0451
+
+--- Analysis for Cluster 25 ---
+Number of points in this cluster: 118
+Top 10 most prominent features (by average value):
+  1. Feature Index 0: 48740.2458
+  2. Feature Index 4: 16212.2712
+  3. Feature Index 5: 2002.0000
+  4. Feature Index 6: 31.6610
+  5. Feature Index 3: 1.0000
+  6. Feature Index 67985: 0.1443
+  7. Feature Index 187813: 0.1233
+  8. Feature Index 180684: 0.0798
+  9. Feature Index 62788: 0.0501
+  10. Feature Index 187133: 0.0482
