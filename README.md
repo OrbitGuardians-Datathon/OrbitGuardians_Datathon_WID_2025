@@ -1,4 +1,14 @@
-# A SaaS Based International Space Traffic Management System
+# Orbit Guardians
+# Women in Data Hackathon - SpaceAware
+
+# We are **ORBIT GUARDIANS**
+![Orbit Guardians](https://github.com/mygoal-javadeveloper/Orbit-Guardians/blob/main/OrbitGuardians_WID.png)
+
+![I'm Competing](https://github.com/mygoal-javadeveloper/Orbit-Guardians/blob/main/I%E2%80%99m%20Competing!.png)
+
+
+
+# **A SaaS Based International Space Traffic Management System**
 
 
 Space is becoming increasingly more crowded.  In the last 60 years nearly 8,500 objects have been launched to space, about 1,500 in geosynchronous Earth orbit (GEO) and about 7,000 in low Earth orbit (LEO) (McDowell 2018). A large fraction remains especially in LEO. Going forward, LEO is expected to become more crowded. The concern is not just the increasing number of satellites and active payloads, but the amount of debris (rocket bodies, other inert bodies, dead payloads) in Earth’s orbit, which comprises more than 95 percent of the currently tracked objects in space. The U.S. Department of Defense (DoD) is currently tracking over 23,000 objects larger than 10 cm in diameter in Earth orbit (of these, almost 16,000 are in LEO, of which nearly 13,000 were classified as space debris). An estimated 500,000 objects larger than 1 cm in diameter are not currently tracked, and over 100 million objects smaller than 1 mm in diameter are likely not trackable (NASA Orbital Debris Program Office, year?).
