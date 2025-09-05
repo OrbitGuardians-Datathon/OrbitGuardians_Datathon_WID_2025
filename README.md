@@ -1,11 +1,10 @@
 # Orbit Guardians
 # Women in Data Datathon - SpaceAware
 
+![I'm Competing](https://github.com/mygoal-javadeveloper/Orbit-Guardians/blob/main/I%E2%80%99m%20Competing!.jpeg)
+
 # We are **ORBIT GUARDIANS**
 ![Orbit Guardians](https://github.com/mygoal-javadeveloper/Orbit-Guardians/blob/main/OrbitGuardians_WID.png)
-
-![I'm Competing](https://github.com/mygoal-javadeveloper/Orbit-Guardians/blob/main/I%E2%80%99m%20Competing!.png)
-
 
 
 # **A SaaS Based International Space Traffic Management System**
