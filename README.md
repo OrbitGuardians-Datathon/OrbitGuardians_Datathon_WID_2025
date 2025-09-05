@@ -1,5 +1,5 @@
 # Orbit Guardians
-# Women in Data Hackathon - SpaceAware
+# Women in Data Datathon - SpaceAware
 
 # We are **ORBIT GUARDIANS**
 ![Orbit Guardians](https://github.com/mygoal-javadeveloper/Orbit-Guardians/blob/main/OrbitGuardians_WID.png)
