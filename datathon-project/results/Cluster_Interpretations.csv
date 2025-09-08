@@ -1,0 +1,6 @@
+cluster,orbit_type,mean_motion_avg,comment
+-1,MEO,5.894403762666666,"Medium Earth Orbit (MEO): Medium-altitude, often navigation satellites like GPS/BeiDou."
+0,LEO,14.787722438177877,"Low Earth Orbit (LEO): Fast orbits, typically debris or small satellites (close to Earth)."
+1,GEO,0.9983499662585034,"Geostationary Orbit (GEO): Communication/TV satellites, appear fixed above Earth."
+2,MEO,2.2784453160077516,"Medium Earth Orbit (MEO): Medium-altitude, often navigation satellites like GPS/BeiDou."
+3,Unclassified,1.68749591765625,Does not match typical orbital regimes (possibly Unclassified).
