@@ -50,3 +50,23 @@ Benefits of the System:
 2.	Participation provides tangible benefits to each country. By contributing to the system, governments gain access to higher-quality conjunction warnings, better situational awareness of crowded orbits, and the ability to verify or cross-check information provided by others. This reduces reliance on a single foreign system, which is a growing concern for countries worried about over-dependence on U.S. data. 
 3.	Participation builds international trust and transparency, as all parties can see how their data contributes to a collective orbital “map.” 
 4.	Countries retain their independence, safeguard their national interests, and strengthen their own SSA capabilities, as they benefit from the efficiencies and global reach of a cooperative SaaS-based STM platform.
+
+References:
+Lal, B., Balakrishnan, A., Caldwell, B.M., Buenconsejo, R.S. and Carioscia, S.A. (2018). Global Trends in Space Situational Awareness (SSA) and Space Traffic Management
+(STM). [online] Dtic.mil. Available at: https://apps.dtic.mil/sti/html/trecms/AD1123106/
+[Accessed 8 Sep. 2025].
+
+Oltrogge, D. and Alfano, S. (2024). Innovative launch collision avoidance (LCOLA) tool prioritizing accuracy, launch access and efficiency. Journal of Space Safety
+Engineering, 11(2), pp.243–251. doi:https://doi.org/10.1016/j.jsse.2024.04.011.
+
+Oltrogge, D.L. and Alfano, S. (2019). The technical challenges of better Space Situational Awareness and Space Traffic Management. Journal of Space Safety
+Engineering, 6(2), pp.72–79. doi:https://doi.org/10.1016/j.jsse.2019.05.004.
+
+Airbus Ventures (2019). Z-SPACE: LeoLabs sets its sights on space situational awareness and space debris. [online] Medium. Available at:
+https://medium.com/@airbus_ventures/z-space-leolabs-sets-its-sights-on-space-situational-awareness-and-space-debris-83004efb7d79 [Accessed 8 Sep. 2025].
+
+Lab, M.M. (2020). Space Situational Awareness: Key issues in an evolving landscape |Statement of Dr. Danielle Wood. [online] Medium. Available at: https://medium.com/mit-
+media-lab/space-situational-awareness-key-issues-in-an-evolving-landscape-statement-of-dr-danielle-wood-9085d09d4b13 [Accessed 8 Sep. 2025].
+
+BIS Research (2022). Key Technologies Enabling Enhanced Space SituationalAwareness Sensors. [online] Medium. Available at:
+https://bisresearchreports.medium.com/key-technologies-enabling-enhanced-space-situational-awareness-sensors-983be0f25db4 [Accessed 8 Sep. 2025].
