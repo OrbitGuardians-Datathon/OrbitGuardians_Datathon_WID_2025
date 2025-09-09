@@ -36,13 +36,13 @@ datathon-project/
 
 ├── src/
 
-│ └── \[satellite\_clustering\_anomaly\_pipeline.py](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/src/satellite\_clustering\_anomaly\_pipeline.py)
+│ └── \[satellite\_clustering\_anomaly\_pipeline.py](https://github.com/OrbitGuardians-Datathon/OrbitGuardians_Datathon_WID_2025/blob/main/datathon-project/src/satellite_clustering_anomaly_pipeline.py)
 
 │
 
 ├── data/
 
-│ └── \[satellite\_data.json](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/data/satellite\_data.json)
+│ └── \[satellite\_data.json](https://github.com/OrbitGuardians-Datathon/OrbitGuardians_Datathon_WID_2025/blob/main/datathon-project/data/satellite_data.json)
 
 │
 
