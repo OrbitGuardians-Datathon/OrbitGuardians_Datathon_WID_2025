@@ -82,9 +82,9 @@ datathon-project/
 
 │
 
-├── [README.md](datathon-project/README.md)
+├── [README.md](README.md)
 
-└── [requirements.txt](datathon-project/requirements.txt)
+└── [requirements.txt](requirements.txt)
 
 
 
