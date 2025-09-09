@@ -72,7 +72,7 @@ datathon-project/
 
 ├── docs/
 
-│ ├── \[Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/docs/Satellite%20Clustering%20and%20Anomaly%20Detection.pdf)
+│ ├── \[Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/docs/Satellite Clustering and Anomaly Detection.pdf)
 
 │
 
@@ -96,7 +96,7 @@ For the detailed methodology, results, and interpretation, see the full report:
 
 
 
-\[docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/docs/Satellite%20Clustering%20and%20Anomaly%20Detection.pdf)
+\[docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/docs/Satellite Clustering and Anomaly Detection.pdf)
 
 
 
