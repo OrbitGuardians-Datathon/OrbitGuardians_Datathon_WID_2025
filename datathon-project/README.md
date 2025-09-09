@@ -36,55 +36,55 @@ datathon-project/
 
 ├── src/
 
-│ └── \[satellite\_clustering\_anomaly\_pipeline.py](https://github.com/OrbitGuardians-Datathon/OrbitGuardians_Datathon_WID_2025/blob/main/datathon-project/src/satellite_clustering_anomaly_pipeline.py)
+│ └── \[satellite\_clustering\_anomaly\_pipeline.py](src/satellite_clustering_anomaly_pipeline.py)
 
 │
 
 ├── data/
 
-│ └── \[satellite\_data.json](https://github.com/OrbitGuardians-Datathon/OrbitGuardians_Datathon_WID_2025/blob/main/datathon-project/data/satellite_data.json)
+│ └── \[satellite\_data.json](data/satellite_data.json)
 
 │
 
 ├── results/
 
-│ ├── \[AnomalyRate\_by\_ObjectType.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/AnomalyRate\_by\_ObjectType.csv)
+│ ├── \[AnomalyRate\_by\_ObjectType.csv](results/AnomalyRate_by_ObjectType.csv)
 
-│ ├── \[Cluster\_Contamination\_Rates.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/Cluster\_Contamination\_Rates.csv)
+│ ├── \[Cluster\_Contamination\_Rates.csv](results/Cluster_Contamination_Rates.csv)
 
-│ ├── \[Cluster\_Interpretations.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/Cluster\_Interpretations.csv)
+│ ├── \[Cluster\_Interpretations.csv](results/Cluster_Interpretations.csv)
 
-│ ├── \[DBSCAN\_Clustering\_Metrics.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_Clustering\_Metrics.csv)
+│ ├── \[DBSCAN\_Clustering\_Metrics.csv](results/DBSCAN_Clustering_Metrics.csv)
 
-│ ├── \[Flagged\_Anomalies.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/Flagged\_Anomalies.csv)
+│ ├── \[Flagged\_Anomalies.csv](results/Flagged_Anomalies.csv)
 
-│ ├── \[SatelliteClusters\_Before\_AnomalyDetection.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/SatelliteClusters\_Before\_AnomalyDetection.csv)
+│ ├── \[SatelliteClusters\_Before\_AnomalyDetection.csv](results/SatelliteClusters_Before_AnomalyDetection.csv)
 
-│ ├── \[DBSCAN\_Clustering.png](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_Clustering.png)
+│ ├── \[DBSCAN\_Clustering.png](results/DBSCAN_Clustering.png)
 
-│ ├── \[DBSCAN\_Clustering\_OrbitType.png](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_Clustering\_OrbitType.png)
+│ ├── \[DBSCAN\_Clustering\_OrbitType.png](results/DBSCAN_Clustering_OrbitType.png)
 
-│ ├── \[DBSCAN\_IsolationForest\_Anomalies.png](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_IsolationForest\_Anomalies.png)
+│ ├── \[DBSCAN\_IsolationForest\_Anomalies.png](results/DBSCAN_IsolationForest_Anomalies.png)
 
-│ └── \[DBSCAN\_IsolationForest\_Anomalies\_Clean.png](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_IsolationForest\_Anomalies\_Clean.png)
+│ └── \[DBSCAN\_IsolationForest\_Anomalies\_Clean.png](results/DBSCAN_IsolationForest_Anomalies_Clean.png)
 
 │
 
 ├── docs/
 
-│ ├── \[Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf)
+│ ├── \[Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](docs/Satellite_Clustering_and_Anomaly_Detection.pdf)
 
 │
 
 ├── notebooks/
 
-│ └── \[EDA.ipynb](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/notebooks/EDA.ipynb)
+│ └── \[EDA.ipynb](notebooks/EDA.ipynb)
 
 │
 
-├── \[README.md](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/README.md)
+├── \[README.md](datathon-project/README.md)
 
-└── \[requirements.txt](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/requirements.txt)
+└── \[requirements.txt](datathon-project/requirements.txt)
 
 
 
@@ -96,7 +96,7 @@ For the detailed methodology, results, and interpretation, see the full report:
 
 
 
-\[docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf)
+[docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](docs/Satellite_Clustering_and_Anomaly_Detection.pdf)
 
 
 
