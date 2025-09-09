@@ -36,43 +36,43 @@ datathon-project/
 
 ├── src/
 
-│ └── [satellite\_clustering\_anomaly\_pipeline.py](src/satellite_clustering_anomaly_pipeline.py)
+│ └── [satellite_clustering_anomaly_pipeline.py](src/satellite_clustering_anomaly_pipeline.py)
 
 │
 
 ├── data/
 
-│ └── [satellite\_data.json](data/satellite_data.json)
+│ └── [satellite_data.json](data/satellite_data.json)
 
 │
 
 ├── results/
 
-│ ├── [AnomalyRate\_by\_ObjectType.csv](results/AnomalyRate_by_ObjectType.csv)
+│ ├── [DBSCAN_Clustering_Metrics.csv](results/DBSCAN_Clustering_Metrics.csv)
 
-│ ├── [Cluster\_Contamination\_Rates.csv](results/Cluster_Contamination_Rates.csv)
+│ ├── [DBSCAN_Clustering.png](results/DBSCAN_Clustering.png)
 
-│ ├── [Cluster\_Interpretations.csv](results/Cluster_Interpretations.csv)
+│ ├── [Cluster_Interpretations.csv](results/Cluster_Interpretations.csv)
 
-│ ├── [DBSCAN\_Clustering\_Metrics.csv](results/DBSCAN_Clustering_Metrics.csv)
+│ ├── [SatelliteClusters_Before_AnomalyDetection.csv](results/SatelliteClusters_Before_AnomalyDetection.csv)
 
-│ ├── [Flagged\_Anomalies.csv](results/Flagged_Anomalies.csv)
+│ ├── [DBSCAN_Clustering_OrbitType.png](results/DBSCAN_Clustering_OrbitType.png)
 
-│ ├── [SatelliteClusters\_Before\_AnomalyDetection.csv](results/SatelliteClusters_Before_AnomalyDetection.csv)
+│ ├── [Flagged_Anomalies.csv](results/Flagged_Anomalies.csv)
 
-│ ├── [DBSCAN\_Clustering.png](results/DBSCAN_Clustering.png)
+│ ├── [DBSCAN_IsolationForest_Anomalies.png](results/DBSCAN_IsolationForest_Anomalies.png)
 
-│ ├── [DBSCAN\_Clustering\_OrbitType.png](results/DBSCAN_Clustering_OrbitType.png)
+│ ├── [DBSCAN_IsolationForest_Anomalies_Clean.png](results/DBSCAN_IsolationForest_Anomalies_Clean.png)
 
-│ ├── [DBSCAN\_IsolationForest\_Anomalies.png](results/DBSCAN_IsolationForest_Anomalies.png)
+│ ├── [AnomalyRate_by_ObjectType.csv](results/AnomalyRate_by_ObjectType.csv)
 
-│ └── [DBSCAN\_IsolationForest\_Anomalies\_Clean.png](results/DBSCAN_IsolationForest_Anomalies_Clean.png)
+│ └── [Cluster_Contamination_Rates.csv](results/Cluster_Contamination_Rates.csv)
 
 │
 
 ├── docs/
 
-│ ├── [Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](docs/Satellite%20Clustering%20and%20Anomaly%20Detection.pdf)
+│ ├── [Satellite_Clustering_and_Anomaly_Detection.pdf](docs/Satellite%20Clustering%20and%20Anomaly%20Detection.pdf)
 
 │
 
@@ -96,7 +96,7 @@ For the detailed methodology, results, and interpretation, see the full report:
 
 
 
-[docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](docs/Satellite%20Clustering%20and%20Anomaly%20Detection.pdf)
+[docs/Satellite_Clustering_and_Anomaly_Detection.pdf](docs/Satellite%20Clustering%20and%20Anomaly%20Detection.pdf)
 
 
 
