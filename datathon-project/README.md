@@ -22,7 +22,7 @@ It was developed as part of a **Women in Data Space-Aware Datathon** to demonstr
 * Scale features and cluster satellites using **DBSCAN**
 * Map clusters to **LEO / MEO / GEO** regimes
 * Apply **IsolationForest** to detect anomalies within each cluster
-* Produce plots and summaries to interpret unsupervised ML results
+* Produce plots, CSVs, and summaries to interpret clustering and anomaly detection results
 
 
 
