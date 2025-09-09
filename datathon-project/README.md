@@ -72,7 +72,7 @@ datathon-project/
 
 ├── docs/
 
-│ ├── [Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](docs/Satellite_Clustering_and_Anomaly_Detection.pdf)
+│ ├── [Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](docs/Satellite Clustering and Anomaly Detection.pdf)
 
 │
 
@@ -96,7 +96,7 @@ For the detailed methodology, results, and interpretation, see the full report:
 
 
 
-[docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](docs/Satellite_Clustering_and_Anomaly_Detection.pdf)
+[docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](docs/Satellite Clustering and Anomaly Detection.pdf)
 
 
 
