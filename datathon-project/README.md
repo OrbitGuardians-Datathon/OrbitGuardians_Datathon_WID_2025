@@ -100,7 +100,7 @@ For the detailed methodology, results, and interpretation, see the full report:
 
 
 
-[docs/Satellite_Clustering_and_Anomaly_Detection.docx](docs/Satellite_Clustering_and_Anomaly_Detection.docx)
+[docs/Satellite_Clustering_and_Anomaly_Detection.docx](https://github.com/OrbitGuardians-Datathon/OrbitGuardians_Datathon_WID_2025/tree/main/datathon-project/docs)
 
 
 
