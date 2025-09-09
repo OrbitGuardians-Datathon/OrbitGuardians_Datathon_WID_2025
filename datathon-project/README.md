@@ -18,15 +18,11 @@ It was developed as part of a **Women in Data Space-Aware Datathon** to demonstr
 
 
 
-- Extract orbital parameters (Inclination, Eccentricity, Mean Motion) from TLE using **sgp4**
-
-- Scale features and cluster satellites using **DBSCAN**
-
-- Map clusters to **LEO / MEO / GEO** regimes
-
-- Apply **IsolationForest** to detect anomalies within each cluster
-
-- Generate metrics, plots, and anomaly statistics
+* Extract orbital parameters (Inclination, Eccentricity, Mean Motion) from TLE using **sgp4**
+* Scale features and cluster satellites using **DBSCAN**
+* Map clusters to **LEO / MEO / GEO** regimes
+* Apply **IsolationForest** to detect anomalies within each cluster
+* Generate metrics, plots, and anomaly statistics
 
 
 
@@ -40,55 +36,55 @@ datathon-project/
 
 ├── src/
 
-│ └── satellite_clustering_anomaly_pipeline.py
+│ └── \[satellite\_clustering\_anomaly\_pipeline.py](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/src/satellite\_clustering\_anomaly\_pipeline.py]
 
 │
 
 ├── data/
 
-│ └── satellite_data.json
+│ └── \[satellite\_data.json](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/data/satellite\_data.json)
 
 │
 
 ├── results/
 
-│ ├── AnomalyRate_by_ObjectType.csv
+│ ├── \[AnomalyRate\_by\_ObjectType.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/AnomalyRate\_by\_ObjectType.csv)
 
-│ ├── Cluster_Contamination_Rates.csv
+│ ├── \[Cluster\_Contamination\_Rates.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/Cluster\_Contamination\_Rates.csv)
 
-│ ├── Cluster_Interpretations.csv
+│ ├── \[Cluster\_Interpretations.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/Cluster\_Interpretations.csv)
 
-│ ├── DBSCAN_Clustering_Metrics.csv
+│ ├── \[DBSCAN\_Clustering\_Metrics.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_Clustering\_Metrics.csv)
 
-│ ├── Flagged_Anomalies.csv
+│ ├── \[Flagged\_Anomalies.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/Flagged\_Anomalies.csv)
 
-│ ├── SatelliteClusters_Before_AnomalyDetection.csv
+│ ├── \[SatelliteClusters\_Before\_AnomalyDetection.csv](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/SatelliteClusters\_Before\_AnomalyDetection.csv)
 
-│ ├── DBSCAN_Clustering.png
+│ ├── \[DBSCAN\_Clustering.png](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_Clustering.png)
 
-│ ├── DBSCAN_Clustering_OrbitType.png
+│ ├── \[DBSCAN\_Clustering\_OrbitType.png](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_Clustering\_OrbitType.png)
 
-│ ├── DBSCAN_IsolationForest_Anomalies.png
+│ ├── \[DBSCAN\_IsolationForest\_Anomalies.png](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_IsolationForest\_Anomalies.png)
 
-│ └── DBSCAN_IsolationForest_Anomalies_Clean.png
+│ └── \[DBSCAN\_IsolationForest\_Anomalies\_Clean.png](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/results/DBSCAN\_IsolationForest\_Anomalies\_Clean.png)
 
 │
 
 ├── docs/
 
-│ ├── Satellite_Clustering_and_Anomaly_Detection.docx
+│ ├── \[Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/docs/Satellite%20Clustering%20and%20Anomaly%20Detection.pdf)
 
 │
 
 ├── notebooks/
 
-│ └── EDA.ipynb
+│ └── \[EDA.ipynb](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/notebooks/EDA.ipynb)
 
 │
 
-├── README.md
+├── \[README.md](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/README.md)
 
-└── requirements.txt
+└── \[requirements.txt](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/requirements.txt)
 
 
 
@@ -100,7 +96,7 @@ For the detailed methodology, results, and interpretation, see the full report:
 
 
 
-[docs/Satellite_Clustering_and_Anomaly_Detection.docx](https://github.com/OrbitGuardians-Datathon/OrbitGuardians_Datathon_WID_2025/tree/main/datathon-project/docs)
+\[docs/Satellite\_Clustering\_and\_Anomaly\_Detection.pdf](https://github.com/OrbitGuardians-Datathon/OrbitGuardians\_Datathon\_WID\_2025/blob/main/datathon-project/docs/Satellite%20Clustering%20and%20Anomaly%20Detection.pdf)
 
 
 
@@ -108,15 +104,7 @@ For the detailed methodology, results, and interpretation, see the full report:
 
 
 
-- **Physics-grounded features**: Inclination, eccentricity, mean motion (from sgp4)  
-
-- **DBSCAN clustering**: Natural grouping into orbital regimes  
-
-- **IsolationForest anomalies**: Detects debris, rocket bodies, unusual satellites  
-
-- **Actionable insights**: Supports space traffic management and collision risk assessment
-
-
-
-
-
+* **Physics-grounded features**: Inclination, eccentricity, mean motion (from sgp4)
+* **DBSCAN clustering**: Natural grouping into orbital regimes
+* **IsolationForest anomalies**: Detects debris, rocket bodies, unusual satellites
+* **Actionable insights**: Supports space traffic management and collision risk assessment
