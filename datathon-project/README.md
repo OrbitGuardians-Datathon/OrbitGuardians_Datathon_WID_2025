@@ -1,36 +1,36 @@
-\# Satellite Clustering and Anomaly Detection
+# Satellite Clustering and Anomaly Detection
 
 
 
-This project applies \*\*unsupervised machine learning\*\* and \*\*orbital mechanics\*\* to cluster satellites into orbital regimes (\*\*LEO, MEO, GEO\*\*) and detect anomalies such as \*\*debris, rocket bodies, and unusual satellites\*\*.
+This project applies **unsupervised machine learning** and **orbital mechanics** to cluster satellites into orbital regimes (**LEO, MEO, GEO**) and detect anomalies such as **debris, rocket bodies, and unusual satellites**.
 
 
 
-It was developed as part of a \*\*Women in Data Space-Aware Datathon\*\* to demonstrate how \*\*data science + physics\*\* can support \*\*Space Situational Awareness (SSA)\*\*.
+It was developed as part of a **Women in Data Space-Aware Datathon** to demonstrate how **data science + physics** can support **Space Situational Awareness (SSA)**.
 
 
 
-\## Pipeline
+## Pipeline
 
 
 
-\*\*TLE → sgp4 Feature Extraction → Scaling → DBSCAN Clustering → Orbit Type Mapping → IsolationForest Anomaly Detection → Outputs (CSVs + Plots)\*\*
+**TLE → sgp4 Feature Extraction → Scaling → DBSCAN Clustering → Orbit Type Mapping → IsolationForest Anomaly Detection → Outputs (CSVs + Plots)**
 
 
 
-\- Extract orbital parameters (Inclination, Eccentricity, Mean Motion) from TLE using \*\*sgp4\*\*
+- Extract orbital parameters (Inclination, Eccentricity, Mean Motion) from TLE using **sgp4**
 
-\- Scale features and cluster satellites using \*\*DBSCAN\*\*
+- Scale features and cluster satellites using **DBSCAN**
 
-\- Map clusters to \*\*LEO / MEO / GEO\*\* regimes
+- Map clusters to **LEO / MEO / GEO** regimes
 
-\- Apply \*\*IsolationForest\*\* to detect anomalies within each cluster
+- Apply **IsolationForest** to detect anomalies within each cluster
 
-\- Generate metrics, plots, and anomaly statistics
+- Generate metrics, plots, and anomaly statistics
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -40,43 +40,43 @@ datathon-project/
 
 ├── src/
 
-│ └── satellite\_clustering\_anomaly\_pipeline.py
+│ └── satellite_clustering_anomaly_pipeline.py
 
 │
 
 ├── data/
 
-│ └── satellite\_data.json
+│ └── satellite_data.json
 
 │
 
 ├── results/
 
-│ ├── AnomalyRate\_by\_ObjectType.csv
+│ ├── AnomalyRate_by_ObjectType.csv
 
-│ ├── Cluster\_Contamination\_Rates.csv
+│ ├── Cluster_Contamination_Rates.csv
 
-│ ├── Cluster\_Interpretations.csv
+│ ├── Cluster_Interpretations.csv
 
-│ ├── DBSCAN\_Clustering\_Metrics.csv
+│ ├── DBSCAN_Clustering_Metrics.csv
 
-│ ├── Flagged\_Anomalies.csv
+│ ├── Flagged_Anomalies.csv
 
-│ ├── SatelliteClusters\_Before\_AnomalyDetection.csv
+│ ├── SatelliteClusters_Before_AnomalyDetection.csv
 
-│ ├── DBSCAN\_Clustering.png
+│ ├── DBSCAN_Clustering.png
 
-│ ├── DBSCAN\_Clustering\_OrbitType.png
+│ ├── DBSCAN_Clustering_OrbitType.png
 
-│ ├── DBSCAN\_IsolationForest\_Anomalies.png
+│ ├── DBSCAN_IsolationForest_Anomalies.png
 
-│ └── DBSCAN\_IsolationForest\_Anomalies\_Clean.png
+│ └── DBSCAN_IsolationForest_Anomalies_Clean.png
 
 │
 
 ├── docs/
 
-│ ├── Satellite\_Clustering\_and\_Anomaly\_Detection.docx
+│ ├── Satellite_Clustering_and_Anomaly_Detection.docx
 
 │
 
@@ -92,7 +92,7 @@ datathon-project/
 
 
 
-\## Documentation
+## Documentation
 
 
 
@@ -100,21 +100,21 @@ For the detailed methodology, results, and interpretation, see the full report:
 
 
 
-\[`docs/Satellite\_Clustering\_and\_Anomaly\_Detection.docx`](docs/Satellite\_Clustering\_and\_Anomaly\_Detection.docx)
+[docs/Satellite_Clustering_and_Anomaly_Detection.docx](docs/Satellite_Clustering_and_Anomaly_Detection.docx)
 
 
 
-\## Highlights
+## Highlights
 
 
 
-\- \*\*Physics-grounded features\*\*: Inclination, eccentricity, mean motion (from sgp4)  
+- **Physics-grounded features**: Inclination, eccentricity, mean motion (from sgp4)  
 
-\- \*\*DBSCAN clustering\*\*: Natural grouping into orbital regimes  
+- **DBSCAN clustering**: Natural grouping into orbital regimes  
 
-\- \*\*IsolationForest anomalies\*\*: Detects debris, rocket bodies, unusual satellites  
+- **IsolationForest anomalies**: Detects debris, rocket bodies, unusual satellites  
 
-\- \*\*Actionable insights\*\*: Supports space traffic management and collision risk assessment
+- **Actionable insights**: Supports space traffic management and collision risk assessment
 
 
 
