@@ -1,0 +1,12 @@
+Column Name,Type,Description
+COUNTRY,Object,Country's initials
+eccentricity*,Float,"Orbital eccentricity (0 = circular, <1 = elliptical). The orbital eccentricity of an astronomical object is a parameter that determines the amount by which its orbit around another body deviates from a perfect circle."
+inclination*,Float (degrees),"Orbital inclination relative to Earth's equator. The angle between the equator and the orbit when looking from the center of the Earth. If the orbit went exactly around the equator from left to right, then the inclination would be 0. The inclination ranges from 0 to 180 degrees."
+intldes,Object,"International Designator. It's a unique identifier assigned to every object launched into space. It's also commonly known as the COSPAR ID and follows a specific format to provide information about the launch. International Designator like 2024-001A means: 2024: The year of the launch. 001: The sequential launch number for that year. A: An alphabetical code identifying the component of the launch (e.g., the primary payload, a rocket body, or debris)."
+LAUNCH_DATE,Object,Specific date on which a space object was launched into Earth's orbit
+meanMotion*,Float,"Measured in revolutions per day — orbits per day. The angular speed required for a body to complete one orbit, assuming constant speed in a circular orbit which completes in the same time as the variable speed, elliptical orbit of the actual body"
+NORAD_CAT_ID,Object,"Unique, five-digit sequential number, a.k.a Satellite Catalog Number (SATCAT), assigned to every artificial Earth-orbiting object by the North American Aerospace Defense Command (NORAD) and its successor by the United States Space Command (USSPACECOM). This identifier is part of the Satellite Catalog (SATCAT) which contains data on all reliably tracked objects in Earth orbit and is used to query and identify objects in the database, with higher numbers indicating objects launched or discovered later."
+OBJECT_NAME,Object,"Name assigned to a space object, based on the name used by its owner or operator"
+TLE_DATA,Object,"Two-Line Element (TLE) set as a standard text-based data format for encoding the orbital elements of Earth-orbiting objects. A TLE provides a snapshot of an object's orbital state at a specific point in time, known as the epoch. The data can then be used with an orbit propagator model, like SGP4, to predict the object's position and velocity."
+
+"Note","","*Extracted from TLE_DATA using sgp4 Python Library"
