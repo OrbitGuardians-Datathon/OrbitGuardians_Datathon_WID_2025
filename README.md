@@ -59,14 +59,12 @@ Benefits of the System:
 
 **Data Understanding**
 
-Our model's data source is Space-Track.org, extracted on August 26, 2025 at 12:45 a.m. East African Time.  Our query parameters were Country = PRC, Object_Name, NORAD_CAT_ID, INTLDES, LAUNCH_DATE, and TLE_Data.  A data dictionary is included in this repository for column name explanations.  
-
-We retrieved 8,648 records compiled since 1970. The dataset is in the file name: satellite_data.json.
+Our model's data source is Space-Track.org, extracted on August 26, 2025 at 12:45 a.m. East African Time.  Our query parameters were Country = PRC, Object_Name, NORAD_CAT_ID, INTLDES, LAUNCH_DATE, and TLE_Data.    A data dictionary is included in this repository for column name explanations.  Lastly, the query returned 8,648 records entered since 1970. This dataset is in the file named satellite_data.json.
 
 **Modeling and Evaluation**
 
-Two models were used in order to cluster the dataset (DBSCAN) and identify anomalies (IsolationForest).  DBSCAN is useful because it doesn’t need the number of clusters specified in advance, and can handle noise.
-The DBSCAN performance metrics below demonstrates that we achieved strong results. Also, the metrics confirmed that DBSCAN created well-formed clusters that matched Earth's orbital regimes--low earth orbit (LEO), medium earth orbit (MEO), and geostationary earth orbit (GEO).  
+Two models were used to cluster the dataset (DBSCAN) and identify anomalies (IsolationForest).  DBSCAN is useful because it doesn’t need the number of clusters specified in advance, and can handle noise.
+The DBSCAN performance metrics below demonstrates that we achieved strong results. Also, the metrics confirm that DBSCAN created well-formed clusters that matched Earth's orbital regimes--low earth orbit (LEO), medium earth orbit (MEO), and geostationary earth orbit (GEO).  These scores are:
 
 - Silhouette Score: 0.835 (good separation, close to 1)
 - Davies-Bouldin Index: 0.140 (very low, good compactness/separation)
@@ -85,11 +83,11 @@ Then we applied IsolationForest to each non-noise cluster, in order to flag unus
 - Rocket bodies (R/B), possibly tumbling or decaying
 - Active satellites with motions not matching their cluster neighbors
 
-This dual DBSCAN and IsolationForest approach connects machine learning with real orbital science, such that the clusters are not just math outputs.  Rather, they are meaningful categories that fall into LEO/MEO/GEO classifications.  Additionally, the flagged debris, rocket bodies, and unusual satellites were detected anomalies.  Consequently, our model, with its strong performance metrics, provides both space traffic insights (clusters) and the anomaly detection engine in a data-driven yet physics-grounded way.
+This dual DBSCAN and IsolationForest approach connects machine learning with real orbital science, such that the clusters are not just math outputs.  Rather, they are meaningful categories that fall into LEO/MEO/GEO classifications.  Additionally, the flagged debris, rocket bodies, and unusual satellites were detected anomalies.  Consequently, our model, with its strong performance metrics, provides both space traffic insights (through clustering) and an anomaly detection engine that is data-driven and grounded in physics.
 
 **Conclusion**
 
-Although a prototype at this stage, our Orbit Guardians Global SaaS platform transforms global space safety. We enable voluntary data sharing, accelerate access to accurate orbital intelligence, and deliver collaborative anomaly detection for all subscribing nations. Most importantly, we provide affordable SSA access for developing SSA countries through neutral UNOOSA stewardship, eliminating dependence on a single nation's control, making the future of space collaborative, sustainable, and accessible to all.
+Although a prototype at this stage, our Orbit Guardians Global SaaS platform transforms global space safety. It enables voluntary data sharing, accelerates access to accurate orbital intelligence, and delivers collaborative anomaly detection for all subscribing nations. Most importantly, it provides affordable SSA access for developing SSA countries through neutral UNOOSA stewardship, eliminating dependence on a single nation's control, and making the future of space collaborative, sustainable, and accessible to all.
 
 References:
 
