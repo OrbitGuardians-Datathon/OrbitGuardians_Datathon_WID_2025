@@ -12,7 +12,7 @@
 
 **Project Overview**
 
-As satellite launches accelerate, over 23,000 trackable space objects and over 500,000 smaller space debris threaten collisions with satellites. Nations with partial Space Situational Awareness (SSA) and unknown SSA capabilities rely primarily on the United States' systems, which unfortunately, and report they experience errors for non-U.S. satellites, no real collision warnings, and incomplete coverage, leaving them without reliable warnings.  These countries need an independent, yet interoperable system that overcomes their current challenges.  Our solution aims to provide a software as a service platform for these countries that allow them to cooperatively contribute, share and access orbital data, as well as obtain anomaly alerts through an integrated anomaly detection engine.  Additionally, the platform is intented to function under the stewardship of the United Nations Office for Outer Space Affairs (UNOOSA) and the International Telecommunication Union (ITU), in order to establish the diplomatic, technical, and regulatory infrastructure for neutral governance.
+As satellite launches accelerate, over 23,000 trackable space objects and over 500,000 smaller space debris threaten collisions with satellites. Nations with partial Space Situational Awareness (SSA) and unknown SSA capabilities rely primarily on the United States' systems, which unfortunately, yields errors for non-U.S. satellites, no real collision warnings, and incomplete coverage, leaving them without reliable warnings.  These countries need an independent, yet interoperable system that overcomes their current challenges.  Our solution aims to provide a software as a service platform for these countries that allow them to cooperatively contribute, share and access orbital data, as well as obtain anomaly alerts through an integrated anomaly detection engine.  Additionally, the platform is intented to function under the stewardship of the United Nations Office for Outer Space Affairs (UNOOSA) and the International Telecommunication Union (ITU), in order to establish the diplomatic, technical, and regulatory infrastructure needed for neutral governance.
 
 **Business Understanding**
 
@@ -59,35 +59,37 @@ Benefits of the System:
 
 **Data Understanding**
 
-Our model's data source is Space-Track.org, extracted on August 26, 2025 at 12:45 a.m. East African Time.  Our query parameters were Country = PRC, Object_Name, NORAD_CAT_ID, INTLDES, LAUNCH_DATE, TLE_Data.  A data dictionary is included in this repository for column name explanations.  
+Our model's data source is Space-Track.org, extracted on August 26, 2025 at 12:45 a.m. East African Time.  Our query parameters were Country = PRC, Object_Name, NORAD_CAT_ID, INTLDES, LAUNCH_DATE, and TLE_Data.  A data dictionary is included in this repository for column name explanations.  
 
 We retrieved 8,648 records compiled since 1970. The dataset is in the file name: satellite_data.json.
 
 **Modeling and Evaluation**
 
-Two models were used in order to cluster the dataset (DBSCAN) and identify anomalies (IsolationForest).  DBSCAN is useful here because it doesn’t need the number of clusters in advance, and can handle noise.
-We achieve the following strong DBSCAN Performance Metrics:
+Two models were used in order to cluster the dataset (DBSCAN) and identify anomalies (IsolationForest).  DBSCAN is useful because it doesn’t need the number of clusters specified in advance, and can handle noise.
+The DBSCAN Performance Metrics below demonstrates that we achieved strong results. Also, the metrics confirmed that DBSCAN created well-formed clusters that matched orbital regimes, low earth orbit (LEO), medium earth orbit (MEO), and geostationary earth orbit (GEO), and noise.  
+
 - Silhouette Score: 0.835 (good separation, close to 1)
 - Davies-Bouldin Index: 0.140 (very low, good compactness/separation)
 - Calinski-Harabasz Index: 10738 (high, strong clustering quality)
 
-These metrics confirmed that DBSCAN created well-formed clusters that matched orbital regimes, low earth orbit (LEO), medium earth orbit (MEO), and geostationary earth orbit (GEO), in addition to noise.  Also, the cleaned dataset returned cluster counts as follows:
+Lastly, the cleaned dataset returned cluster counts as follows:
 - Cluster 0 → 8073 satellites
 - Cluster 1 → 147 satellites
 - Cluster 2 → 258 satellites
 - Cluster 3 → 64 satellites
 - Noise (-1) → 90 satellites
 
-We then applied IsolationForest to flag unusual satellites inside each non-noise cluster.  By combining the object type from the object name data with the anomaly output from IsolationForest, we were able to infer the following anomalies:
+Then we applied IsolationForest to each non-noise cluster, in order to flag unusual satellites.  By combining the object type from the object name data with the anomaly output from IsolationForest, we were able to infer the following anomalies:
+
 - Debris drifting away from its group
-- Rocket bodies (R/B) possibly tumbling or decaying
+- Rocket bodies (R/B), possibly tumbling or decaying
 - Active satellites with motions not matching their cluster neighbors
 
-This approach connects machine learning with real orbital science, such that the clusters are not just math outputs.  Rather, they are meaningful categories that fall into LEO/MEO/GEO classifications.  Additionally, the flagged debris, rocket bodies, and unusual satellites were detected anomalies.  Consequently, our model provides both space traffic insights (clusters) and problem object alerts (anomalies) in a data-driven yet physics-grounded way.
+This dual DBSCAN and IsolationForest approach connects machine learning with real orbital science, such that the clusters are not just math outputs.  Rather, they are meaningful categories that fall into LEO/MEO/GEO classifications.  Additionally, the flagged debris, rocket bodies, and unusual satellites were detected anomalies.  Consequently, our model, with its strong performance metrics, provides both space traffic insights (clusters) and the anomaly detection engine in a data-driven yet physics-grounded way.
 
 **Conclusion**
 
-Although a prototype at this stage, our solution vision is an Orbit Guardians SaaS platform that transforms global space safety. We enable voluntary data sharing, accelerate access to accurate orbital intelligence, and deliver collaborative anomaly detection for all subscribing nations. Most importantly, we provide affordable SSA access for developing SSA countries through neutral UNOOSA stewardship, eliminating dependence on single-nation's control, making the future of space collaborative, sustainable, and accessible to all.
+Although a prototype at this stage, our Orbit Guardians Global SaaS platform transforms global space safety. We enable voluntary data sharing, accelerate access to accurate orbital intelligence, and deliver collaborative anomaly detection for all subscribing nations. Most importantly, we provide affordable SSA access for developing SSA countries through neutral UNOOSA stewardship, eliminating dependence on a single nation's control, making the future of space collaborative, sustainable, and accessible to all.
 
 References:
 
