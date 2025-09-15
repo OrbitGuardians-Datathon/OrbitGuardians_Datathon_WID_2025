@@ -66,7 +66,7 @@ We retrieved 8,648 records compiled since 1970. The dataset is in the file name:
 **Modeling and Evaluation**
 
 Two models were used in order to cluster the dataset (DBSCAN) and identify anomalies (IsolationForest).  DBSCAN is useful because it doesn’t need the number of clusters specified in advance, and can handle noise.
-The DBSCAN Performance Metrics below demonstrates that we achieved strong results. Also, the metrics confirmed that DBSCAN created well-formed clusters that matched orbital regimes, low earth orbit (LEO), medium earth orbit (MEO), and geostationary earth orbit (GEO), and noise.  
+The DBSCAN performance metrics below demonstrates that we achieved strong results. Also, the metrics confirmed that DBSCAN created well-formed clusters that matched Earth's orbital regimes--low earth orbit (LEO), medium earth orbit (MEO), and geostationary earth orbit (GEO).  
 
 - Silhouette Score: 0.835 (good separation, close to 1)
 - Davies-Bouldin Index: 0.140 (very low, good compactness/separation)
